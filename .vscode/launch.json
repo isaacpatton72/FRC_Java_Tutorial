@@ -1,0 +1,33 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "IntroPart3.Main",
+            "projectName": "JavaTutorial_4147043f"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "IntroPart2.Main",
+            "projectName": "JavaTutorial_4147043f"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "IntroPart1.Main",
+            "projectName": "JavaTutorial_4147043f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "cwd": "${fileDirname}",
+            "mainClass": "${file}"
+        }
+    ]
+}
