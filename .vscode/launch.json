@@ -3,6 +3,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Exercise",
+            "request": "launch",
+            "mainClass": "IntroPart1.Exercise",
+            "projectName": "JavaTutorial_4147043f"
+        },
+        {
+            "type": "java",
+            "name": "Quiz",
+            "request": "launch",
+            "mainClass": "IntroPart1.Quiz",
+            "projectName": "JavaTutorial_4147043f"
+        },
+        {
+            "type": "java",
+            "name": "Stuff",
+            "request": "launch",
+            "mainClass": "IntroPart1.Stuff",
+            "projectName": "JavaTutorial_4147043f"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "IntroPart3.Main",

@@ -4,7 +4,7 @@ public class House {
     float price;
 
 
-    House(float price) {
+    public House(float price) {
         this.price = price;
     }
 
