@@ -5,6 +5,20 @@
             "type": "java",
             "name": "Quiz",
             "request": "launch",
+            "mainClass": "IntroPart3.Quiz",
+            "projectName": "JavaTutorial_4147043f"
+        },
+        {
+            "type": "java",
+            "name": "TripAverageSpeed",
+            "request": "launch",
+            "mainClass": "IntroPart3.TripAverageSpeed",
+            "projectName": "JavaTutorial_4147043f"
+        },
+        {
+            "type": "java",
+            "name": "Quiz",
+            "request": "launch",
             "mainClass": "IntroPart2.Quiz",
             "projectName": "JavaTutorial_4147043f"
         },
