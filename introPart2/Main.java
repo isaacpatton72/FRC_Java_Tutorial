@@ -84,6 +84,6 @@ public class Main {
          * Outside of the following case and case 2, any combination of white space is typically fine at least in 
          * terms of the code output being consistent.
          */
-        System.out.prin     tln("print statement number 5");
+        // System.out.prin     tln("print statement number 5");
     }
 }
