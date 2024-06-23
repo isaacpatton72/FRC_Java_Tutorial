@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Quiz",
+            "request": "launch",
+            "mainClass": "IntroPart2.Quiz",
+            "projectName": "JavaTutorial_4147043f"
+        },
+        {
+            "type": "java",
             "name": "Exercise",
             "request": "launch",
             "mainClass": "IntroPart1.Exercise",
