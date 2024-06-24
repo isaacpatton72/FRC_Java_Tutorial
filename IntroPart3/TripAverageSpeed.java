@@ -1,6 +1,6 @@
 package IntroPart3;
 
-public class TripAverageSpeed {
+class TripAverageSpeed {
 
 
     /*

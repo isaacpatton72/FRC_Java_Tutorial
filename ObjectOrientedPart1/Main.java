@@ -1,6 +1,6 @@
 package ObjectOrientedPart1;
 
-public class Main {
+class Main {
     /*
      * The main class will become more important down the line as
      * we start adding more files as currently our code as only been
@@ -37,4 +37,7 @@ public class Main {
     later on but for now just remember that you will only have one main method in a program.
     */
     
+
+
+
 }

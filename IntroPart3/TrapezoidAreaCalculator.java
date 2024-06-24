@@ -1,6 +1,6 @@
 package IntroPart3;
 
-public class TrapezoidAreaCalculator {
+class TrapezoidAreaCalculator {
     public static void main(String[] args) {
         double a = 5; // Length of the first parallel side
         double b = 7; // Length of the second parallel side

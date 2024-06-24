@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "ObjectOrientedPart1.Main",
+            "projectName": "JavaTutorial_4147043f"
+        },
+        {
+            "type": "java",
             "name": "Quiz",
             "request": "launch",
             "mainClass": "IntroPart3.Quiz",

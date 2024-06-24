@@ -1,5 +1,5 @@
 package IntroPart2;
-public class Main {
+class Main {
     // public static void main(String[] args) {
     //     print1();
     // }

@@ -1,11 +1,11 @@
 package IntroPart1;
 
-public class Main {
+class Main {
     public static void main(String[] args) {
 
         //TODO: fill in the explanations for each data type
 
-        
+
         /*
          * this section explains the different data types in Java and
          * how to properly declare them. Also talks about the print function

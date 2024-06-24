@@ -1,6 +1,6 @@
 package IntroPart1;
 
-public class Exercise  {
+class Exercise  {
     public static void main(String[] args) {
         // TODO: Replace the '???' with the correct data type to make the program run successfully.
 
