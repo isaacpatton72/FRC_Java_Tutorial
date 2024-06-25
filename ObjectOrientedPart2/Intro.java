@@ -1,6 +1,6 @@
 package ObjectOrientedPart2;
 
-class Main {
+class Intro {
     /*
      * This topic of the entire series is probably the most important one that
      * you will learn in these tutorials and is reason that I am teaching this 

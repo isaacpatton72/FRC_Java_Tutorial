@@ -12,7 +12,7 @@ class Main {
      * case it serves as a place to start the program. It will let us create
      * all the things we will need to start the cascading waterfall of code. 
      * You can kind of think of it as a dam that is holding back all the code
-     * and the path the water will take depends on how much water is behind it.
+     * and the path the water will take depends on how much water is behind the dam.
      * 
      */
 

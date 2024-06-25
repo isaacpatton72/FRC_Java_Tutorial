@@ -1,0 +1,5 @@
+Constructor: A special tool in a class that helps create new objects with specific details.
+Attribute: A feature or quality that describes an object in a class.
+Initialize: To give a starting value to a variable when it is first created.
+Parameter: Information sent to a method or constructor so it can do its job.
+Blueprint: A detailed plan used to build objects, like a recipe for making something.
