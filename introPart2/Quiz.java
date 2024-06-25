@@ -1,3 +1,4 @@
+//This is a runnable quiz you just have to hit the execute button to run the quiz
 package IntroPart2;
 
 import java.util.Scanner;
