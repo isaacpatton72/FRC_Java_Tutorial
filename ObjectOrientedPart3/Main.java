@@ -52,9 +52,9 @@ public class Main {
          * 
          */
 
-        String secondHouseRoofColor = "blue";
+        String secondHouseRoofColor = "red";
         int secondHouseNumberOfWindows = 2;
-        String secondHouseWallMaterial = "wood";
+        String secondHouseWallMaterial = "brick";
         House3 ourSecondHouse = new House3(secondHouseRoofColor, secondHouseNumberOfWindows, secondHouseWallMaterial);
 
         /*
@@ -79,7 +79,7 @@ public class Main {
         * it is java's way of accessing the information stored in the box. In this case we are accessing
         * the information stored in the box that we named ourSecondHouse and we are specifically asking
         * for the wallMaterial attribute. When we created those attributes in the house3 class like the 
-        * wallMaterial or the roof color attribute, we were telling java that when at some point we would set 
+        * wallMaterial or the roof color attribute, we were telling java that when at some point that we would set 
         * up a box, these values need to be stored in that box so that they can be easily accessible to us. 
         * And if you are wondering how were the strings and integers that we learned about in the first couple 
         * of lessons different from what we are doing now, it is because we are defining these variables in 
@@ -88,7 +88,25 @@ public class Main {
         */
 
         /*
-         * TODO: explain how it creates unique boxes for each house object
+         * The last thing I want to explain within this lesson is how java creates unique boxes for each 
+         * object/house that we create. Let's take a look at this in action.
+         */
+
+         System.out.println(house.wallMaterial);
+         System.out.println(ourSecondHouse.wallMaterial);
+
+
+        /*
+         * if you'll notice, when we run the program to print out the wallMaterial attribute of
+         * both the house and the ourSecondHouse objects, we get two different values. This is because
+         * java will create different boxes for each object that we create. This is very important because
+         * it means that even though both "house" and "ourSecondHouse" are both House3 objects, they are 
+         * not storing their information in the House3 class file, they are storing it in their own box. 
+         * This means that anything that we do to the house object will not affect the ourSecondHouse object
+         * because all the information about each of our houses is stored in their own box. This is extremely
+         * important because it gives us a way to easily shove a ton of code into a single box and then be able
+         * to create as many of those boxes as we want, all with unique information, without having to write 
+         * a unique class for each different house.
          */
 
         
