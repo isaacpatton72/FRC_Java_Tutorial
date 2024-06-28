@@ -1,0 +1,25 @@
+talk about methods as behaviors and how it compliments attribtues
+explain how to define a method
+explain how it can change the state of something within a box
+talk about how it is packaged into each of the boxes with all
+    the other attributes.
+reiterate how what happens in one box doesn't affect the other boxes
+compare it agaisnt the constructor (requires an object,
+    it is part of the box rather than the thing that defines
+    how to build the box)
+explain how they let us change the state of an objects, also
+    known as the attributes so that our object can change 
+    in real time whenever we want
+
+
+
+Explain how methods are also extremely powerful for code reusability
+How methods can define large behaviors to simplify complicated tasks
+    into a single method
+
+
+
+
+
+
+
