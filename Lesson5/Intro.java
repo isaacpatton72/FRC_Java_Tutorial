@@ -3,7 +3,7 @@ package Lesson5;
 class Intro {
     /*
      * This topic of the entire series is probably the most important one that
-     * you will learn in these tutorials and is reason that I am teaching this 
+     * you will learn in these tutorials and is the reason that I am teaching this 
      * topic so early compared to some other tutorials. The entire goal of java 
      * portion of this series is to teach you how to think in terms of objects, 
      * not in terms of code. With the release of tools like chat gpt it becomes
