@@ -22,7 +22,7 @@ public class Quiz {
         // Question 2
         System.out.println("What is the best data type for the name of a person? (int/String/boolean/double/float)");
         String answer2 = scanner.nextLine();
-        if ("String".equalsIgnoreCase(answer2)) {
+        if ("String".equals(answer2)) {
             System.out.println("Correct!");
             score++;
         } else {
