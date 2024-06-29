@@ -1,3 +1,5 @@
+talk about the this keyword so that you can simplify the program
+
 talk about methods as behaviors and how it compliments attribtues
 explain how to define a method
 explain how it can change the state of something within a box
@@ -17,9 +19,9 @@ Explain how methods are also extremely powerful for code reusability
 How methods can define large behaviors to simplify complicated tasks
     into a single method
 
+Explain method composition, where one method can call another method to
+    complete one part of a task to simplify all your code.
 
-
-
-
-
+Explain how we can use parameters like we did with our constructor to 
+    pass in new info so that things can be more dynamic. 
 

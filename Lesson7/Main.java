@@ -12,18 +12,10 @@ public class Main {
         myHouse.turnOffAirConditioning();
         System.out.println("Is the air conditioning on? " + myHouse.isAirConditioningOn);
 
-
-
-
-
         // myHouse.turnOffAirConditioning();
         // System.out.println("Is the air conditioning on? " + myHouse.isAirConditioningOn);
 
         myHouse.printAirConditioningStatus();
-
-
-
-
 
         myHouse.printAllHouseData();
 

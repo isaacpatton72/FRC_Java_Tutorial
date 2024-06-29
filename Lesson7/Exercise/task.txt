@@ -1,0 +1,27 @@
+Complete the implementation of the DishWasher class to simulate a dishwasher's operations, including creating a method that runs one full cleaning cycle.
+
+Task List:
+
+turnOn: Create a method to start the dishwasher by setting isRunning to true.
+turnOff: Create a method to stop the dishwasher by setting isRunning to false.
+
+preWash: Create a method to simulate the pre-wash stage by setting waterConsumption to 3 gallons.
+mainWash: Create a method to simulate the main wash stage by setting waterConsumption to 5 gallons.
+dryDishes: Create a method to simulate the drying stage by setting waterConsumption to 0 gallons.
+
+runCycle: Implement a method that performs the following steps:
+Start the dishwasher 
+Print the cleaning status.
+Run the pre-wash stage
+Print the cleaning status.
+Run the main wash stage 
+Print the cleaning status.
+Run the drying stage
+Print the cleaning status.
+Stop the dishwasher
+Print the final cleaning status.
+
+
+
+how would you run a fully cycle in the main method of the class instead
+of in the runCycleMethod in the class?
