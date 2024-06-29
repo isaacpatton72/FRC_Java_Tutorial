@@ -17,26 +17,6 @@ class TripAverageSpeed {
 
      */
     public static void main(String[] args) {
-        double firstPartSpeed = 60; // Speed for the first part of the trip in miles per hour
-        double firstPartDistance = 60; // Distance for the first part of the trip in miles
-        
-        // Step 1: Calculate the speed for the second part
-        double secondPartSpeed = firstPartSpeed * 1.2;
-        
 
-
-        // Step 2: Calculate the time taken for each part
-        //Hint: Time = Distance / Speed
-        double firstPartTime = firstPartDistance / firstPartSpeed; // Time = Distance / Speed
-        double secondPartTime = firstPartDistance / secondPartSpeed; // Same distance for the second part
-        
-        // Step 3: Calculate the total time
-        double totalTime = firstPartTime + secondPartTime;
-        
-        // Step 4: Calculate the overall average speed
-        double totalDistance = firstPartDistance * 2; // Total distance for both parts
-        double averageSpeed = totalDistance / totalTime;
-        
-        System.out.println("The overall average speed for the trip is: " + averageSpeed + " miles per hour.");
     }
 }

@@ -52,7 +52,7 @@ public class Quiz {
     System.out.println("a) 1\nb) \"1\"");
     System.out.print("Your answer: ");
     String answer4 = scanner.nextLine();
-    if ("c".equalsIgnoreCase(answer4)) {
+    if ("a".equalsIgnoreCase(answer4)) {
         System.out.println("Correct! The correct answer is a) 1");
         score++;
     } else {
