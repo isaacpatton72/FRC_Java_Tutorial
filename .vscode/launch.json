@@ -5,6 +5,13 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "Lesson1.Main",
+            "projectName": "FRC_Java_Tutorial_ac079d02"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "ObjectOrientedPart4.Main",
             "projectName": "JavaTutorial_4147043f"
         },
