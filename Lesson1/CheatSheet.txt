@@ -1,0 +1,7 @@
+DataTypes:
+int
+float
+double
+char
+String
+boolean
