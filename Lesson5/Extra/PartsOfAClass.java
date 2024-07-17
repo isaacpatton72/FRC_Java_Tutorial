@@ -1,4 +1,4 @@
-package Lesson6;
+package Lesson5.Extra;
 
 public class PartsOfAClass { //the class body start here
     /*
@@ -125,7 +125,7 @@ public class PartsOfAClass {  //the class body start here
 
 public class MainExample {
     public static void main(String[] args) {
-        int exampleInteger = 5;
+        
     }
 }
 

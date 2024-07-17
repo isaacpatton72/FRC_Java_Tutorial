@@ -3,6 +3,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ExerciseMain",
+            "request": "launch",
+            "mainClass": "Lesson5.Practice.Exercise.ExerciseMain",
+            "projectName": "FRC_Java_Tutorial_43a3e275"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Lesson5.Main",
+            "projectName": "FRC_Java_Tutorial_43a3e275"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Lesson4.Main",
+            "projectName": "FRC_Java_Tutorial_43a3e275"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "Lesson1.Main",

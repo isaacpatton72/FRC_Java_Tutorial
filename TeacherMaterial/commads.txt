@@ -1,5 +1,0 @@
-git worktree add Teacher
-
-code Teacher/
-
-git worktree remove Teacher
