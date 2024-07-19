@@ -1,4 +1,4 @@
-package Lesson7.Exercise;
+package Lesson6.Practice;
 
 class DishWasher {
     String brand;
