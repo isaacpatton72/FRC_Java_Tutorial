@@ -1,0 +1,47 @@
+in this exercise your goal is to create a class for an apple.
+This class should behave as a blueprint, allowing us to create
+many different types of apples using a single class.
+
+Our goal is to be able to represent the following:
+grannysmith
+pink lady slipper
+honeycrisp
+
+To accomplish this you are going to need to create a 
+class then can generically represent what an apple is
+while allowing us to be able to uniquely identify 
+which apple is which based on their unique attributes
+
+FINAL GOAL!!!:
+Using the class that you create you should be able to 
+print out the following in the main method in the ExerciseMain
+file. 
+    A grannysmith apple is green, has a sweetness of 4, and a tartness of 8
+    A pink lady slipper apple is pink, has a sweetness of 6, and a tartness of 4
+    A honeycrisp apple is red, has a sweetness of 9, and a tartness of 2
+
+
+
+
+    
+
+Hints:
+you are going to need 3 attributes to represent our apples:
+color, sweetness, tartness
+
+for reference, here would be the respective traits that would
+go with each apple if you are not familliar. 
+
+grannysmith 
+    color: green
+    sweetness: 4
+    tartness: 8
+pink lady slipper
+    color: pink
+    sweetness: 6
+    tartness: 4
+honeycrisp
+    color: red
+    sweetness: 9
+    tartness: 2
+

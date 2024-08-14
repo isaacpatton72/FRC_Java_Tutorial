@@ -1,46 +1,76 @@
-in this exercise your goal is to create a class for an apple.
-This class should behave as a blueprint, allowing us to create
-many different types of apples using a single class.
+Task Instructions: Implementing and Completing the `DishWasher` Class
 
-Our goal is to be able to represent the following:
-grannysmith
-pink lady slipper
-honeycrisp
+Objective:
+Your task is to complete the implementation of a `DishWasher` class that simulates the operation of a dishwasher. The class should be able to run a full wash cycle, track water consumption, and calculate the total energy used during the cycle.
 
-To accomplish this you are going to need to create a 
-class then can generically represent what an apple is
-while allowing us to be able to uniquely identify 
-which apple is which based on their unique attributes
+Task Breakdown:
 
-Using the class that you create you should be able to 
-print out the following in the main method in the ExerciseMain
-file. 
-    A grannysmith apple is green, has a sweetness of 4, and a tartness of 8
-    A pink lady slipper apple is pink, has a sweetness of 6, and a tartness of 4
-    A honeycrisp apple is red, has a sweetness of 9, and a tartness of 2
+1. Define the Class and Instance Variables
+   - Create a class named `DishWasher`.
+   - Define the following instance variables:
+     - `String brand`: The brand of the dishwasher.
+     - `boolean isRunning`: A flag to track whether the dishwasher is currently running. Initialize it to `false`.
+     - `int waterConsumptionPerCycle`: The amount of water used per cycle, measured in gallons. Initialize it to `0`.
+     - `double totalEnergyUsed`: The total energy used by the dishwasher so far, measured in kilowatt-hours (kWh). Initialize it to `0`.
 
+2. Create the Constructor
+   - Implement a constructor that takes a `String` parameter for the brand of the dishwasher and initializes the `brand` instance variable.
 
+3. Implement the `start()` Method
+   - Create a `start()` method that:
+     - Sets `totalEnergyUsed` to `0`.
+     - Sets `isRunning` to `true`.
 
+4. Implement the `stop()` Method
+   - Create a `stop()` method that:
+     - Sets `isRunning` to `false`.
 
-    
+5. Implement the `calculateEnergyUsed(double timeInMinutes)` Method
+   - Create a method that calculates and returns the energy used based on the `waterConsumptionPerCycle` and the time the dishwasher has been running.
+   - The formula for energy used is: `(waterConsumptionPerCycle * 1.34) + 0.15307107 * timeInMinutes`. (not a formula based on real numbers, 
+        just random number for the sake of the exercise)
 
-Hints:
-you are going to need 3 attributes to represent our apples:
-color, sweetness, tartness
+6. Implement the `preWash(double timeRunning)` Method
+   - Create a `preWash(double timeRunning)` method that:
+     - Sets `waterConsumptionPerCycle` to `3` gallons.
+     - Calculates and adds the energy used during the pre-wash cycle to `totalEnergyUsed`.
 
-for reference, here would be the respective traits that would
-go with each apple if you are not familliar. 
+7. Implement the `mainWash(double timeRunning)` Method
+   - Create a `mainWash(double timeRunning)` method that:
+     - Sets `waterConsumptionPerCycle` to `5` gallons.
+     - Calculates and adds the energy used during the main wash cycle to `totalEnergyUsed`.
 
-grannysmith 
-    color: green
-    sweetness: 4
-    tartness: 8
-pink lady slipper
-    color: pink
-    sweetness: 6
-    tartness: 4
-honeycrisp
-    color: red
-    sweetness: 9
-    tartness: 2
+8. Implement the `dry(double timeRunning)` Method
+   - Create a `dry(double timeRunning)` method that:
+     - Sets `waterConsumptionPerCycle` to `0` gallons.
+     - Calculates and adds the energy used during the drying cycle to `totalEnergyUsed`.
+
+9. Implement the `printStatus()` Method
+   - Create a method that prints the current status of the dishwasher, including:
+     - The brand of the dishwasher.
+     - Whether the dishwasher is running.
+     - The water consumption per cycle (in gallons).
+     - The total energy used (in kWh).
+
+10. Implement the `runFullCycle()` Method
+    - Create a composite method named `runFullCycle()` that:
+      - Calls the `start()` method to begin the cycle.
+      - Runs `preWash` for 10 minutes.
+      - Runs `mainWash` for 40 minutes.
+      - Runs `dry` for 30 minutes.
+      - Calls the `stop()` method to end the cycle.
+
+Final Step:
+
+- Test Your Class:
+  - Once you have implemented all the methods, create a `Main` class to test your `DishWasher` class.
+  - Instantiate the `DishWasher` object, run a full cycle, and print the status to verify that all the methods are working correctly.
+
+Expected Output:
+
+- After running the full cycle and printing the status, you should see:
+  Dishwasher Brand: Samsung
+  Is Running: false
+  Water Consumption: 0 liters per cycle
+  Total Energy Used: 19.9042642 kWh
 

@@ -1,22 +1,32 @@
 package Lesson5;
 
-public class Main {
+class Main {
 
     public static void main(String[] args) {
 
-        GenericHouse mFirstHouse = new GenericHouse("orange", 5, "brick");
-        GenericHouse mSecondHouse = new GenericHouse("blue", 10, "wood");
-        GenericHouse mThirdHosue = new GenericHouse("magenta", 15, "stone");
-
-
-        System.out.println(mFirstHouse.roofColor);
-        System.out.println(mSecondHouse.roofColor);
-        System.out.println(mThirdHosue.roofColor);
-       
+        Car myNewerFerrari = new Car("Ferrari", "812 GTS", 2023, "Red");
+        Car myOlderFerrari = new Car("Ferrari", "Roma", 2021, "Red");
         
+        myNewerFerrari.printInformation();
+        myOlderFerrari.printInformation();
+
+        myNewerFerrari.setSpeed(50);
+
+        myNewerFerrari.printInformation();
+        myOlderFerrari.printInformation();
+
+        myNewerFerrari.stopCar();
+        
+        myNewerFerrari.printInformation();
+        myOlderFerrari.printInformation();
+
+
+
+
+
+
 
     }
-
 
 
 }
