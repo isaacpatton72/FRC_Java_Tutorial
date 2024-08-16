@@ -13,6 +13,13 @@ public class DishWasher {
         this.brand = brand;
     }
 
+    void printStatus() {
+        System.out.println("Dishwasher Brand: " + brand);
+        System.out.println("Is running: " + isRunning );
+        System.out.println("Current Water Consumption: " + waterConsumptionPerCycle + " gallons per cycle");
+        System.out.println("Total Energy Used: " + totalEnergyUsed + " kWh");
+    }
+
     void start() {
         totalEnergyUsed = 0;
         isRunning = true;
@@ -39,6 +46,12 @@ public class DishWasher {
     void dry(double timeRunning) {
         waterConsumptionPerCycle = 0;
         totalEnergyUsed += calculateEnergyUsed(timeRunning);
+    }
+
+    void runFullCycle() {
+        preWash(10);
+        mainWash(40);
+        dry(30);
     }
 
 
