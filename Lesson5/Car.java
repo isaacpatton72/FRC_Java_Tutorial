@@ -7,9 +7,6 @@ class Car {
         String model = "Unkown";
         int yearProduced = 0;
         String color = "No color";
-        double speed = 0;
-        boolean isCarOn = false;
-        
 
         //constructor
         Car(String brandToAssign, String modelToAssign, int yearProducedToAssign, String colorToAssign) {
@@ -19,49 +16,40 @@ class Car {
             color = colorToAssign;
         }
 
-
-        void startEngine() {
-            isCarOn = true;
-            System.out.println("Your car is now running");
+        // the drive method
+        void drive() {
+            System.out.println("The car is now driving!");
         }
 
-        void stopEngine() {
-            isCarOn = false;
-            System.out.println("Your car is now off");
+        void paintPurple() {
+            color = "purple";
         }
 
-        void accelerate() {
-            speed += 10;
+        void remodelToBuggee() {
+            model = "Beetle";
+            yearProduced = 1999;
+            brand = "VolksWaggen";
+            color = "god awful yellow";
+            printState();
         }
 
-        void brake() {
-            speed -= 10;
+        void printState() {
+            System.out.println("This is a " + color + " " + model + " " + brand + " Produced in " + yearProduced);
         }
 
-        void setSpeed(double speedToSet) {
-            speed = speedToSet;
-        }
-
-        void stopCar() {
-            setSpeed(0);
-        }
-
-        void printInformation() {
-            System.out.println("This is a " + color 
-                + " " + model + 
-                " " + brand + 
-                " Produced in " + yearProduced + 
-                "... isCarOn: "  + isCarOn 
-                + "... the car is going " + speed + " mph");
+        String returnState() { 
+            return "This is a " + color + " " + model + " " + brand + " Produced in " + yearProduced;
         }
 
 
 
+        void printOutString(String stringToPrint, int intToPrint) {
+            System.out.println(stringToPrint  + intToPrint);
+        }
+
+        
+        
 
 
-
-
-
-
-
+ 
 }

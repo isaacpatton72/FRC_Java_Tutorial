@@ -1,3 +1,9 @@
+the .git folder is not important to you and just keeps track of some git related code to allow
+    this project to be hosted on github.
+
 Each lesson comes with the needed files to follow along with the video tutorials online 
-as well as all of the files neccesary to attempt the quizzes and practice exercises on 
-your own. 
+    as well as all of the files neccesary to attempt the quizzes and practice exercises on 
+    your own. 
+
+Here in the tutorial layout folder you will find all of the cheat sheats neccesary to be able 
+    to follow along with the video tutorials.
