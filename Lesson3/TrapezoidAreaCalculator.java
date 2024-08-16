@@ -7,7 +7,7 @@ class TrapezoidAreaCalculator {
         double h = 4; // Height
 
         // Calculate the area of the trapezoid
-        
+        double area = ((a + b) / 2) * h;
 
         System.out.println("The area of the trapezoid is: " + area);
     }
