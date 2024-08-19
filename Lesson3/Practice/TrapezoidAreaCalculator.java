@@ -1,4 +1,4 @@
-package Lesson3;
+package Lesson3.Practice;
 
 class TrapezoidAreaCalculator {
     public static void main(String[] args) {

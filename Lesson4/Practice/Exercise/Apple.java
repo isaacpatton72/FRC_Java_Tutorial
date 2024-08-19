@@ -1,4 +1,4 @@
-package Lesson4.Exercise;
+package Lesson4.Practice.Exercise;
 
 class Apple {
     
