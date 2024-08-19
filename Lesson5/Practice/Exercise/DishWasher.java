@@ -49,9 +49,11 @@ public class DishWasher {
     }
 
     void runFullCycle() {
+        start();
         preWash(10);
         mainWash(40);
         dry(30);
+        stop();
     }
 
 
