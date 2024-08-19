@@ -1,4 +1,3 @@
-//This is a runnable quiz you just have to hit the execute button to run the quiz
 package Lesson2;
 
 import java.util.Scanner;
@@ -8,62 +7,59 @@ public class Quiz {
         Scanner scanner = new Scanner(System.in);
         int score = 0;
 
-        System.out.println("Quiz: Understanding Java Whitespace and Print Statements");
+        System.out.println("A quiz to test your knowledge on White Space and Naming Variables in Java");
 
         // Question 1
-        System.out.println("1. What will be the output of the following code snippet?\nSystem.out.println(\"print statement number ___\");");
-        System.out.println("a) An error\nb) print statement number ___\nc) print statement number\n");
-        System.out.print("Your answer: ");
+        System.out.println("What does Java do with white space in code? (a) Interprets it as an error (b) Ignores it (c) Requires it for proper execution (d) Changes its meaning");
         String answer1 = scanner.nextLine();
         if ("b".equalsIgnoreCase(answer1)) {
             System.out.println("Correct!");
             score++;
         } else {
-            System.out.println("Incorrect. The correct answer is b) print statement number ___");
+            System.out.println("Incorrect. The correct answer is (b) Ignores it.");
         }
 
         // Question 2
-        System.out.println("\n2. Does Java consider whitespace within quotation marks as part of the string?");
-        System.out.println("a) Yes\nb) No");
-        System.out.print("Your answer: ");
+        System.out.println("What should you be careful of when adding white space within strings? (a) It will cause a syntax error (b) It adds extra spaces to the output (c) It changes the data type (d) It splits the string into multiple lines");
         String answer2 = scanner.nextLine();
-        if ("a".equalsIgnoreCase(answer2)) {
+        if ("b".equalsIgnoreCase(answer2)) {
             System.out.println("Correct!");
             score++;
         } else {
-            System.out.println("Incorrect. The correct answer is a) Yes");
+            System.out.println("Incorrect. The correct answer is (b) It adds extra spaces to the output.");
         }
 
         // Question 3
-        System.out.println("\n3. Does Java care about whitespace outside the quotation marks in a print statement?");
-        System.out.println("a) Yes\nb) No");
-        System.out.print("Your answer: ");
+        System.out.println("Which convention is commonly used for naming variables in Java? (a) Snake case (b) Pascal case (c) Camel case (d) Kebab case)");
         String answer3 = scanner.nextLine();
-        if ("b".equalsIgnoreCase(answer3)) {
+        if ("c".equalsIgnoreCase(answer3)) {
             System.out.println("Correct!");
             score++;
         } else {
-            System.out.println("Incorrect. The correct answer is b) No");
+            System.out.println("Incorrect. The correct answer is (c) Camel case.");
         }
 
-    // Question 4
-    System.out.println("\n4. What should be placed in the blank to correctly display: print statement number 1?");
-    System.out.println("System.out.println(\"print statement number ___\");");
-    System.out.println("a) 1\nb) \"1\"");
-    System.out.print("Your answer: ");
-    String answer4 = scanner.nextLine();
-    if ("a".equalsIgnoreCase(answer4)) {
-        System.out.println("Correct! The correct answer is a) 1");
-        score++;
-    } else {
-        System.out.println("""
-            Incorrect. The correct answer is a) 1 since adding
-            quotation marks in a string would make it dipslay 
-            the quotation marks""");
-    }
+        // Question 4
+        System.out.println("What is a good practice when naming variables? (a) Make the names as long as possible (b) Use random letters and numbers (c) Be specific enough but not overly specific (d) Always start with a capital letter)");
+        String answer4 = scanner.nextLine();
+        if ("c".equalsIgnoreCase(answer4)) {
+            System.out.println("Correct!");
+            score++;
+        } else {
+            System.out.println("Incorrect. The correct answer is (c) Be specific enough but not overly specific.");
+        }
 
+        // Question 5
+        System.out.println("What is the result of adding a space within a Java keyword like 'System.out.print'? (a) It enhances readability (b) It causes an error (c) It changes the keyword's function (d) It allows for multiple commands)");
+        String answer5 = scanner.nextLine();
+        if ("b".equalsIgnoreCase(answer5)) {
+            System.out.println("Correct!");
+            score++;
+        } else {
+            System.out.println("Incorrect. The correct answer is (b) It causes an error.");
+        }
 
-        System.out.println("\nQuiz completed! Your score is: " + score + "/4");
+        System.out.println("Quiz completed! Your score is: " + score + "/5");
         scanner.close();
     }
 }
