@@ -5,6 +5,15 @@ Your task is to complete the implementation of a `DishWasher` class that simulat
     of a dishwasher. The class should be able to run a full wash cycle, track water consumption, 
     and calculate the total energy used during the cycle.
 
+General Overview:
+  this exercise is going to walk you through the process of creating a class that simulates a 
+  real world dishwasher. This class will have a total of 4 instance variables, a constructor,
+  8 methods, and a main method to test the class. In the end what you should have is a class that 
+  allows us to simulate a full dishwasher cycle and track the energy used and water consumed during
+  the full wash cycle represented by running the prewash, main wash, and dry portions of the wash cycle. 
+  the energy used shouldn't be based on the total energy used in the total life time of the dishwasher,
+  but instead should be based on the energy used during the current full wash cycle. 
+
 
 HELPFUL TIPS:
   -after implementing the print status method you should use it to print the status of the dishwasher 
