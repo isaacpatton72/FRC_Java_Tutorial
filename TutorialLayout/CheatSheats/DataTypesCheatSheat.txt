@@ -1,0 +1,8 @@
+DataTypes:
+    int: a whole number (no decimal point) that can be positive or negative (ex: 0, 1, -1, 42, -42)
+    float: a number that has a decimal point (ex: 0.5, -0.5, 3.14, -3.14)
+    double: a number that has a decimal point and is more precise than a float 
+        because it can hold more decimal places than a flaot (ex: 0.5, -0.5, 3.14, -3.14)
+    char: a single character (ex: 'a', 'b', 'c', '1', '2', '3', '$', '%', '&', '!')
+    String: a sequence of characters (ex: "hello", "world", "hello world", "123", "abc", "!", "$", "%")
+    boolean: a value that can be either true or false (ex: true, false)
