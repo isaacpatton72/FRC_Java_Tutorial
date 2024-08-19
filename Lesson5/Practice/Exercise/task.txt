@@ -8,7 +8,7 @@ Your task is to complete the implementation of a `DishWasher` class that simulat
 
 HELPFUL TIPS:
   -after implementing the print status method you should use it to print the status of the dishwasher 
-  after each step in the runFullCycle method to make sure that the dishwasher is working correctly.
+  after each step of the cycle to make sure the dishwasher is working correctly.
   -you can then create a dishwasher in the main class and call the methods individualy to see the 
   state of the dishwasher printed out each time you call a method which you can use to check your work.
   
@@ -86,5 +86,5 @@ Expected Output:
   Dishwasher Brand: Samsung
   Is Running: false
   Current Water Consumption: 0 gallons per cycle
-  Total Energy Used: 19.9042642 kWh
+  Total Energy Used: 22.9656856 kWh
 
