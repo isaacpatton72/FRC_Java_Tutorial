@@ -3,6 +3,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DrawingPanel",
+            "request": "launch",
+            "mainClass": "Lesson6.Lesson.LessonExample3.DrawingPanel",
+            "projectName": "FRC_Java_Tutorial_43a3e275"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Lesson6.Lesson.LessonExample3.Main",
+            "projectName": "FRC_Java_Tutorial_43a3e275"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Lesson6.Lesson.LessonExample2.BadExample.Main",
+            "projectName": "FRC_Java_Tutorial_43a3e275"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Lesson6.Lesson.LessonExample1.Main",
+            "projectName": "FRC_Java_Tutorial_43a3e275"
+        },
+        {
+            "type": "java",
+            "name": "Bank",
+            "request": "launch",
+            "mainClass": "Lesson6.Bank",
+            "projectName": "FRC_Java_Tutorial_43a3e275"
+        },
+        {
+            "type": "java",
             "name": "Quiz",
             "request": "launch",
             "mainClass": "Lesson5.Practice.Quiz.Quiz",
